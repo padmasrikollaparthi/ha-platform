@@ -76,6 +76,8 @@ ha-platform/
     ├── screenshot-pdb.png
     ├── screenshot-node-drain-recovery.png
     └── screenshot-cronjob.png
+    |__screenshot-webapp-health.png
+    |__screenshot-webapp-running.png
 ```
 
 ---
