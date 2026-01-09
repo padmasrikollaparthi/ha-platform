@@ -25,7 +25,7 @@ spec:
             - sh
             - -c
             - |
-              until nslookup postgres; do
+              until nslookup postgres.ha-platform.svc.cluster.local; do
                 echo "Waiting for PostgreSQL service..."
                 sleep 2
               done
